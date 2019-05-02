@@ -31,7 +31,6 @@ From [Google Lighthouse Audit][scope_imp]
 
 `manifest-scoped-urls` checks that the:
 
-1. `name` or `short_name` is specified.
 2. `start_url` is specified.
 3. `start_url` is same-origin.
 4. `start_url` is accessible.
@@ -44,7 +43,7 @@ A list of code examples that will fail this hint.
 
 #### Example 1
 
-No `name` or `short_name` property specified in Manifest file
+No `name` or `short_name` property specified in Manifest file.
 
 ```json
 {
@@ -56,7 +55,7 @@ No `name` or `short_name` property specified in Manifest file
 
 #### Example 2
 
-No `start_url` property specified in Manifest file
+No `start_url` property specified in Manifest file.
 
 ```json
 {
@@ -82,7 +81,7 @@ Manifest property start_url not scoped.
 
 #### Example 4
 
-Manifest property start_url scoped but inaccessible
+Manifest property start_url scoped but inaccessible.
 
 ```json
 {
@@ -96,7 +95,7 @@ Manifest property start_url scoped but inaccessible
 
 #### Example 5
 
-Manifest property start_url is not same origin
+Manifest property start_url is not same origin.
 
 ```json
 {
