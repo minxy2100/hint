@@ -1,0 +1,20 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@hint/parser-typescript-config > lodash':
+        patched: '2020-04-30T21:52:39.055Z'
+    - '@hint/parser-typescript-config > @hint/utils-json > lodash':
+        patched: '2020-04-30T21:52:39.055Z'
+    - '@hint/configuration-progressive-web-apps > @hint/parser-manifest > @hint/utils-json > lodash':
+        patched: '2020-04-30T21:52:39.055Z'
+    - '@hint/configuration-progressive-web-apps > @hint/parser-manifest > @hint/utils-json > @hint/utils-network > lodash':
+        patched: '2020-04-30T21:52:39.055Z'
+    - '@hint/connector-local > jsdom > request-promise-native > request-promise-core > lodash':
+        patched: '2020-04-30T21:52:39.055Z'
+    - '@hint/configuration-progressive-web-apps > @hint/parser-manifest > @hint/utils-json > @hint/utils-network > @hint/utils > lodash':
+        patched: '2020-04-30T21:52:39.055Z'
+    - '@hint/configuration-progressive-web-apps > @hint/connector-jsdom > jsdom > request-promise-native > request-promise-core > lodash':
+        patched: '2020-04-30T21:52:39.055Z'
