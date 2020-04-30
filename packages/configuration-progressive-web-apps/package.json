@@ -9,7 +9,8 @@
     "@hint/hint-manifest-exists": "^2.3.3",
     "@hint/hint-manifest-file-extension": "^2.3.3",
     "@hint/hint-manifest-is-valid": "^3.2.3",
-    "@hint/parser-manifest": "^2.2.4"
+    "@hint/parser-manifest": "^2.2.4",
+    "snyk": "^1.316.1"
   },
   "description": "webhint's recommended hints configuration for progressive web apps (PWAs)",
   "engines": {
@@ -32,5 +33,10 @@
     "hint": "^5.2.1"
   },
   "repository": "webhintio/hint",
-  "version": "6.0.4"
+  "version": "6.0.4",
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
