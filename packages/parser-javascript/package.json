@@ -9,7 +9,8 @@
   "dependencies": {
     "@hint/utils": "^4.0.0",
     "acorn": "^6.3.0",
-    "acorn-walk": "^6.2.0"
+    "acorn-walk": "^6.2.0",
+    "snyk": "^1.316.1"
   },
   "description": "webhint parser needed to analyze JavaScript files",
   "devDependencies": {
@@ -72,7 +73,10 @@
     "watch": "npm run build && npm-run-all --parallel -c watch:*",
     "watch:assets": "npm run build:assets -- -w --no-initial",
     "watch:test": "ava --watch",
-    "watch:ts": "npm run build:ts -- --watch"
+    "watch:ts": "npm run build:ts -- --watch",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
-  "version": "3.0.7"
+  "version": "3.0.7",
+  "snyk": true
 }
