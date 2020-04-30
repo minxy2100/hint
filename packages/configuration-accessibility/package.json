@@ -3,7 +3,8 @@
     "@hint/connector-puppeteer": "^2.0.3",
     "@hint/formatter-html": "^4.1.2",
     "@hint/formatter-summary": "^3.0.6",
-    "@hint/hint-axe": "^4.1.0"
+    "@hint/hint-axe": "^4.1.0",
+    "snyk": "^1.316.1"
   },
   "description": "webhint's axe-based accessibility configuration for WCAG 2.1 Level A and Level AA requirements",
   "engines": {
@@ -25,5 +26,10 @@
     "hint": "^5.2.1"
   },
   "repository": "webhintio/hint",
-  "version": "1.0.4"
+  "version": "1.0.4",
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
