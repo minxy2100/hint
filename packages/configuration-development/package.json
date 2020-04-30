@@ -22,7 +22,8 @@
     "@hint/parser-css": "^3.0.6",
     "@hint/parser-html": "^3.0.4",
     "@hint/parser-typescript-config": "^2.3.3",
-    "@hint/parser-webpack-config": "^2.1.7"
+    "@hint/parser-webpack-config": "^2.1.7",
+    "snyk": "^1.316.1"
   },
   "description": "webhint's recommended hints configuration for development",
   "engines": {
@@ -46,5 +47,10 @@
     "hint": "^5.2.1"
   },
   "repository": "webhintio/hint",
-  "version": "7.0.4"
+  "version": "7.0.4",
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
