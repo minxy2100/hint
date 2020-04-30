@@ -7,7 +7,8 @@
     "timeout": "1m"
   },
   "dependencies": {
-    "@hint/utils": "^4.0.0"
+    "@hint/utils": "^4.0.0",
+    "snyk": "^1.316.1"
   },
   "description": "Require scripts and styles to use Subresource Integrity",
   "devDependencies": {
@@ -66,7 +67,10 @@
     "watch": "npm run build && npm-run-all --parallel -c watch:*",
     "watch:assets": "npm run build:assets -- -w --no-initial",
     "watch:test": "ava --watch",
-    "watch:ts": "npm run build:ts -- --watch"
+    "watch:ts": "npm run build:ts -- --watch",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
-  "version": "3.2.4"
+  "version": "3.2.4",
+  "snyk": true
 }
