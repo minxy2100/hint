@@ -10,7 +10,8 @@
     "@hint/utils": "^4.0.0",
     "is-ci": "^2.0.0",
     "lockfile": "^1.0.4",
-    "puppeteer-core": "^1.19.0"
+    "puppeteer-core": "^1.19.0",
+    "snyk": "^1.316.1"
   },
   "description": "hint connector for browsers supported by Puppeteer",
   "devDependencies": {
@@ -86,7 +87,10 @@
     "test-only": "nyc ava",
     "test-release": "npm run lint && npm run build-release && ava",
     "watch": "npm run build && npm-run-all --parallel -c watch:*",
-    "watch:ts": "npm run build:ts -- --watch"
+    "watch:ts": "npm run build:ts -- --watch",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
-  "version": "2.0.4"
+  "version": "2.0.4",
+  "snyk": true
 }
