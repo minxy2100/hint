@@ -21,7 +21,8 @@
     "optionator": "^0.8.2",
     "ora": "^3.4.0",
     "os-locale": "^4.0.0",
-    "update-notifier": "^3.0.1"
+    "update-notifier": "^3.0.1",
+    "snyk": "^1.316.1"
   },
   "description": "The linting tool for the web",
   "devDependencies": {
@@ -96,7 +97,10 @@
     "watch:assets": "npm run build:assets -- -w --no-initial",
     "watch:resources": "npm run build:assets -- -w --no-initial",
     "watch:test": "ava --watch",
-    "watch:ts": "npm run build:ts -- --watch"
+    "watch:ts": "npm run build:ts -- --watch",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
-  "version": "5.2.1"
+  "version": "5.2.1",
+  "snyk": true
 }
