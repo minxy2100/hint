@@ -27,7 +27,8 @@
   },
   "dependencies": {
     "@hint/utils": "^4.0.0",
-    "postcss-selector-parser": "^6.0.2"
+    "postcss-selector-parser": "^6.0.2",
+    "snyk": "^1.316.1"
   },
   "engines": {
     "node": ">=8.0.0"
@@ -72,7 +73,10 @@
     "watch": "npm run build && npm-run-all --parallel -c watch:*",
     "watch:assets": "npm run build:assets -- -w --no-initial",
     "watch:test": "ava --watch",
-    "watch:ts": "npm run build:ts -- --watch"
+    "watch:ts": "npm run build:ts -- --watch",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "snyk": true
 }
