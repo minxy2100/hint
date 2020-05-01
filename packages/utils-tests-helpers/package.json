@@ -6,7 +6,8 @@
     "@hint/utils": "^4.0.0",
     "@hint/utils-create-server": "^3.1.6",
     "ava": "^1.4.1",
-    "hint": "^5.2.1"
+    "hint": "^5.2.1",
+    "snyk": "^1.316.1"
   },
   "description": "hint tests helpers",
   "devDependencies": {
@@ -56,7 +57,10 @@
     "test-only": "npm run build",
     "test-release": "npm run lint && npm run build-release",
     "watch": "npm run build && npm-run-all --parallel -c watch:*",
-    "watch:ts": "npm run build:ts -- --watch"
+    "watch:ts": "npm run build:ts -- --watch",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
-  "version": "5.0.5"
+  "version": "5.0.5",
+  "snyk": true
 }
