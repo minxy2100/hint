@@ -8,7 +8,7 @@
   },
   "description": "webhint parser to analyze babel config",
   "dependencies": {
-    "@hint/utils": "^4.0.0",
+    "@hint/utils": "^7.0.2",
     "lodash": "^4.17.13"
   },
   "devDependencies": {
