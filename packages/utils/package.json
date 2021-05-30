@@ -12,7 +12,7 @@
     "applicationinsights": "^1.4.0",
     "configstore": "^5.0.0",
     "content-type": "^1.0.4",
-    "css-select": "^2.0.2",
+    "css-select": "^4.0.0",
     "debug": "^4.1.1",
     "eventemitter2": "^5.0.1",
     "file-type": "^12.1.0",
