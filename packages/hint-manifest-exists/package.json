@@ -7,7 +7,7 @@
     "timeout": "1m"
   },
   "dependencies": {
-    "@hint/utils": "^4.0.0"
+    "@hint/utils": "^7.0.8"
   },
   "description": "hint that that checks if a web app manifest file was specified and it exists",
   "devDependencies": {
