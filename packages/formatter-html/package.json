@@ -8,7 +8,7 @@
   },
   "description": "A hint formatter that outputs the issues in an HTML file.",
   "dependencies": {
-    "@hint/utils": "^4.0.0",
+    "@hint/utils": "^7.0.8",
     "ejs": "^2.6.2",
     "fs-extra": "^8.0.1",
     "lodash": "^4.17.13",
