@@ -7,7 +7,7 @@
     "timeout": "1m"
   },
   "dependencies": {
-    "@hint/utils": "^4.0.0",
+    "@hint/utils": "^7.0.8",
     "acorn": "^6.3.0",
     "acorn-walk": "^6.2.0"
   },
