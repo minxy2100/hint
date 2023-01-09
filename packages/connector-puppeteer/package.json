@@ -10,7 +10,7 @@
     "@hint/utils": "^4.0.0",
     "is-ci": "^2.0.0",
     "lockfile": "^1.0.4",
-    "puppeteer-core": "^1.19.0"
+    "puppeteer-core": "^3.0.0"
   },
   "description": "hint connector for browsers supported by Puppeteer",
   "devDependencies": {
