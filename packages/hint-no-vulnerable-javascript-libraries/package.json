@@ -7,10 +7,10 @@
     "timeout": "1m"
   },
   "dependencies": {
-    "@hint/utils": "^4.0.0",
+    "@hint/utils": "^7.0.2",
     "js-library-detector": "^5.4.0",
     "lodash": "^4.17.13",
-    "semver": "^6.3.0"
+    "semver": "^7.5.2"
   },
   "description": "hint that that checks using Snyk for vulnerable JavaScript libraries",
   "devDependencies": {
