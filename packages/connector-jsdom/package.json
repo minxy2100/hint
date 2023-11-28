@@ -7,9 +7,9 @@
     "timeout": "1m"
   },
   "dependencies": {
-    "@hint/utils": "^4.0.0",
+    "@hint/utils": "^7.0.2",
     "@hint/utils-connector-tools": "^4.0.6",
-    "jsdom": "^15.1.1",
+    "jsdom": "^16.6.0",
     "mutationobserver-shim": "^0.3.3",
     "whatwg-fetch": "^3.0.0"
   },
