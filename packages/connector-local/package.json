@@ -7,10 +7,10 @@
     "timeout": "1m"
   },
   "dependencies": {
-    "@hint/utils": "^4.0.0",
+    "@hint/utils": "^7.0.0",
     "chokidar": "^3.0.2",
     "globby": "^10.0.1",
-    "jsdom": "^15.1.1"
+    "jsdom": "^16.6.0"
   },
   "description": "hint local connector",
   "devDependencies": {
