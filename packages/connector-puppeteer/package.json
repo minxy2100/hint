@@ -7,10 +7,10 @@
     "timeout": "1m"
   },
   "dependencies": {
-    "@hint/utils": "^4.0.0",
+    "@hint/utils": "^7.0.22",
     "is-ci": "^2.0.0",
     "lockfile": "^1.0.4",
-    "puppeteer-core": "^1.19.0"
+    "puppeteer-core": "^19.7.3"
   },
   "description": "hint connector for browsers supported by Puppeteer",
   "devDependencies": {
