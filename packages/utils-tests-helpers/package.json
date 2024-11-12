@@ -5,8 +5,8 @@
     "@hint/connector-puppeteer": "^2.0.3",
     "@hint/utils": "^4.0.0",
     "@hint/utils-create-server": "^3.1.6",
-    "ava": "^1.4.1",
-    "hint": "^5.2.1"
+    "ava": "^3.0.0",
+    "hint": "^6.0.4"
   },
   "description": "hint tests helpers",
   "devDependencies": {
