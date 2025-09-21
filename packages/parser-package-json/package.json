@@ -8,7 +8,7 @@
   },
   "description": "webhint parser to analyze the package.json file",
   "dependencies": {
-    "@hint/utils": "^4.0.0"
+    "@hint/utils": "^7.0.2"
   },
   "devDependencies": {
     "@types/node": "^12.6.9",
